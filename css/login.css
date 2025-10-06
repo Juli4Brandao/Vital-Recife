@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Inter, sans-serif;
+    background-image: url(/imagens/BG-Vital.png);
+    background-position: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.barrinha {
+    background-color: #CCFF00;
+    height: 20px;
+    width: 100%;
+    text-align: center; 
+    position: fixed; 
+    top: 0; 
+    z-index: 1000;
+}
+
+.logo img {
+    margin-top: 100px;
+    height: 400px;
+    margin-bottom: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.form h2{
+    color: #f2f2f2;
+    font-size: 40px;
+    text-align: center;
+}
+
+.input label{
+    color: #f2f2f2;
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+
+
+.input input{
+    padding-bottom: 1rem;
+    border: #CCFF00 1px solid;
+    border-radius: 10px;
+    
+}
+
+input {
+    width: 300px;
+    height: 15px;
+    margin-bottom: 10px;
+}
+
+input::placeholder {
+   line-height: auto;
+   padding-left: 5px;  
+   font-size: 16px;
+}
+
+button {
+    width: 300px;
+    border-radius: 10px;
+    font-size: 16px; 
+    font-weight: 700;
+    padding: 8px;
+    color: #1c1c1c;
+    background-color: #CCFF00;
+    border: #546309 solid 1px;
+    margin-top: 20px;
+}
+
+main {
+    padding-bottom: 200px;
+}
+
+.frase {
+    text-align: center;
+    color: #f2f2f2;
+    justify-content: center;
+}
