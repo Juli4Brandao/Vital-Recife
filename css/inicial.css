@@ -12,27 +12,29 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 15px 25px;
-  background-color: rgba(18, 18, 18, 0.4); /* transparente */
+  background-color: rgba(18, 18, 18, 0.4);
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 10;
-  backdrop-filter: blur(6px); /* leve desfoque */
+  box-sizing: border-box; /* Garante que o padding não quebre o layout */
+  backdrop-filter: blur(6px);
   border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
 
+/* Container para agrupar logo e título */
+.cabecalho-esquerda {
+  display: flex;
+  align-items: center;
 }
+
 .logo {
-  height: 45px;           /* altura ideal da logo */
-  width: auto;             /* mantém proporção da imagem */
-  display: flex;       
-  object-fit: contain;     /* evita distorção */
-  margin-right: 15px;      /* espaço entre a logo e o título/menu */
-}
-.menu-icone {
-  font-size: 28px;
-  cursor: pointer;
-  color: #fff;
+  height: 85px;
+  width: auto;
+  display: flex;
+  object-fit: contain;
+  margin-right: 15px;
 }
 
 .titulo-site {
@@ -40,10 +42,14 @@ body {
   font-weight: 600;
 }
 
+.icones-direita {
+  display: flex;
+  gap: 20px; /* Espaço ideal APENAS ENTRE os ícones */
+}
+
 .icones-direita .icone {
-  margin-left: 15px;
   cursor: pointer;
-  font-size: 18px;
+  font-size: 22px; /* ALTERADO: Ícone aumentado de 18px para 22px */
 }
 
 /* ===== BANNER COMPLETO ===== */
@@ -61,9 +67,26 @@ body {
   display: block;
 }
 
-/* ===== RESPONSIVO ===== */
+/* ===== RODAPÉ (NOVA SEÇÃO) ===== */
+.site-footer {
+  background-color: #0a0a0a;
+  color: #888;
+  text-align: center;
+  padding: 25px 0;
+  font-size: 14px;
+  border-top: 1px solid #222;
+}
+
+/* ===== RESPONSIVO (GERAL) ===== */
 @media (max-width: 820px) {
   .banner-completo {
     height: 350px;
   }
 }
+  .cabecalho {
+    padding: 15px 20px; 
+  }
+
+  .icones-direita {
+    gap: 15px; 
+  }
