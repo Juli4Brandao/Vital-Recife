@@ -1,60 +1,69 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Perfil do Afiliado - Vital Recife</title>
-  <link rel="stylesheet" href="css/perfil.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <title>Vital Recife</title>
 </head>
+
 <body>
 
-  <header class="hero-header">
-    <div class="container">
-      <img src="imagens/logo-vitalrecife.png" alt="Logo Vital Recife" class="logo">
-      <h2>Bem-vindo, Matheus Eloim</h2>
-    </div>
-  </header>
+    <div class="barrinha"></div>
 
-  <main class="container perfil">
-    
-    <section class="dados-afiliado">
-      <p><strong>Email:</strong> Matheus@serasa.com</p>
-    </section>
-
-    <section class="links-afiliado">
-      <h3>Seus Links para Divulgar</h3>
-      <div class="produtos-container">
+    <header>
         
-        <div class="produto-card">
-          <img src="/imagens/WHEY GOLD STANDARD PERFIL LEO.jpg" alt="Whey Protein Gold Standard">
-          <h4>Whey Protein Gold Standard</h4>
-          <a href="https://vitalrecife.com/produto1?ref=matheuseloim" target="_blank" class="btn">Copiar Link</a>
+    </header>
+
+    <main>    
+        
+        <div class="logo">
+            <img src="imagens/ícone user.svg" alt="Logo da Vital Recife">
         </div>
+        
+        <div class="container">
+            
+                <form  class="form">
+                    <h2>Alterar Perfil</h2>
 
-        <div class="produto-card">
-          <img src="/imagens/Produto1.png" alt="Whey Bar Gourmet">
-          <h4>Whey Bar Gourmet</h4>
-          <a href="https://vitalrecife.com/produto2?ref=matheuseloim" target="_blank" class="btn">Copiar Link</a>
+                    <div class="input">
+                        <label for="nome">Nome</label> <br>
+                        <input type="text" id="nome" placeholder="">
+
+                        
+                    </div>
+
+                    <div class="input">
+                        <label for="email">E-mail</label> <br>
+                        <input type="email" id="email" placeholder="">
+                    </div>
+
+                    <div class="input">
+                        <label for="telefone">Telefone</label> <br>
+                        <input type="tel" id="telefone" placeholder="">
+                    </div>
+
+                    <div class="input">
+                        <label for="senha">Senha</label> <br>
+                        <input type="password" id="senha" placeholder="">
+                    </div>
+
+                    <div class="input">
+                        <label for="senha">Confirme sua senha</label> <br>
+                        <input type="password" id="senha" placeholder="">
+                    </div>
+
+                    <button type="submit"><a href="inicial.html">Salvar</a></button>
+                    
+                </form>
+                </p>
+                <br>
         </div>
+    </main>
 
-        <div class="produto-card">
-          <img src="/imagens/Plano treino de Crossfit.png" alt="Whey Bar Gourmet">
-          <h4>Plano Treino de Crossfit</h4>
-          <p>Um plano completo para maximizar seus resultados.</p>
-          <a href="https://vitalrecife.com/produto3?ref=matheuseloim" target="_blank" class="btn">Copiar Link</a>
-        </div>
-
-      </div>
-    </section>
-
-  </main>
-
-  <footer class="site-footer">
-    <div class="container">
-      <p>© 2025 Vital Recife. Todos os direitos reservados.</p>
-      <p>Contato: <a href="mailto:suporte@vitalrecife.com">suporte@vitalrecife.com</a></p>
-    </div>
-  </footer>
-
+    <footer>
+    
+    </footer>
 </body>
 </html>

@@ -56,6 +56,11 @@ body {
     
 }
 
+a{
+    text-decoration: none;
+    text-decoration-line: none;
+}
+
 input {
     width: 300px;
     height: 15px;
