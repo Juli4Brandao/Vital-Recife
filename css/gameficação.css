@@ -1,0 +1,65 @@
+body {
+      background: #121212;
+      color: #fff;
+      padding: 40px;
+    }
+    
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      background: #121212;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+      padding: 30px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #CCFF00;
+      margin-bottom: 10px;
+      font-size: 2rem;
+    }
+
+    p.subtitle {
+      text-align: center;
+      color: #fff;
+      margin-bottom: 30px;
+      font-size: 0.95rem;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+
+    th, td {
+      border-bottom: 1px solid #183d1b;
+      padding: 14px 12px;
+      text-align: left;
+      font-size: 0.95rem;
+    }
+
+    th {
+      background: #121212;
+      color: #CCFF00;
+      font-weight: 600;
+    }
+
+    tr:hover {
+      background: #121212;
+    }
+
+    /* Medalhas dos top 3 */
+    .rank-1 { color: #d4af37; font-weight: 700; } /* ouro */
+    .rank-2 { color: #c0c0c0; font-weight: 700; } /* prata */
+    .rank-3 { color: #cd7f32; font-weight: 700; } /* bronze */
+
+    /* Barrinha de destaque no topo */
+    .highlight {
+      background: #CCFF00;
+      height: 5px;
+      border-radius: 4px;
+      margin-bottom: 25px;
+}

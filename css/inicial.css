@@ -95,7 +95,12 @@ main {
 
 .container {
   justify-content: center;
-  margin-top: 10%
+  margin-top: 10%;
+  text-decoration: none;
+}
+
+div h1 a {
+  text-decoration: none;
 }
 
 .links-afiliados {
