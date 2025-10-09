@@ -78,6 +78,7 @@ button {
     background-color: #CCFF00;
     border: #546309 solid 1px;
     margin-top: 20px;
+    cursor: pointer;
 }
 
 main {
@@ -88,4 +89,5 @@ main {
     text-align: center;
     color: #f2f2f2;
     justify-content: center;
+    cursor: pointer;
 }

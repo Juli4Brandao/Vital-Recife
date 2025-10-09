@@ -78,8 +78,15 @@ button {
     background-color: #CCFF00;
     border: #546309 solid 1px;
     margin-top: 20px;
+    cursor: pointer;
 }
 
 main {
     padding-bottom: 200px;
+}
+button:hover{
+    background: #eee;
+}
+.frase{
+    cursor: pointer;
 }
